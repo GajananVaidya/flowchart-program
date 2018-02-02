@@ -1,0 +1,49 @@
+[
+    {
+        "ruleId" : 1,
+        "body" : {
+            "condition" : "num!=0",
+            "successmsg" : "Success : Number is not 0",
+            "errormsg" : "Fail: Number is 0",
+            "true_id" : 2,
+            "false_id" : null
+        }
+    },
+    {
+        "ruleId" : 2,
+        "body" : {
+            "condition" : "num<100",
+            "successmsg" : "Success : Number is less than 100",
+            "errormsg" : "Fail: Number is not less than 100",
+            "true_id" : 3,
+            "false_id" : 4
+        }
+    },
+    {
+        "ruleId" : 3,
+        "body" : {
+            "condition" : "num%2==0",
+            "successmsg" : "Success : Number is even",
+            "errormsg" : "Fail: Number is odd",
+            "true_id" : 5,
+            "false_id" : null
+        }
+    },
+    {
+        "ruleId" : 4,
+        "body" : {
+            "condition" : "",
+            "true_id" : null,
+            "false_id" : null
+        }
+    },
+    {
+        "ruleId" : 5,
+        "body" : {
+            "condition" : "",
+            "true_id" : null,
+            "false_id" : null
+        }
+    }
+
+]
